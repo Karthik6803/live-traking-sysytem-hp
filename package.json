@@ -1,0 +1,35 @@
+{
+  "name": "hp-bus-tracking",
+  "version": "1.0.0",
+  "description": "A live tracking system for public buses in Himachal Pradesh.",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "typescript": "^4.5.4",
+    "ts-node": "^10.4.0",
+    "jest": "^27.0.6",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.11.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/hp-bus-tracking.git"
+  },
+  "keywords": [
+    "bus",
+    "tracking",
+    "Himachal Pradesh",
+    "public transport"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
